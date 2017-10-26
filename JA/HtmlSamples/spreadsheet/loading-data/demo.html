@@ -1,0 +1,37 @@
+<script src="http://jp.staging.igniteui.local/17-2/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.core.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.lob.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.excel-bundled.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.spreadsheet-bundled.js"></script>
+<script src="https://www.igniteui.com/js/external/FileSaver.js"></script>
+<link href="http://staging.igniteui.local/17-2/IgniteUI/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://staging.igniteui.local/17-2/IgniteUI/css/structure/infragistics.css" rel="stylesheet"></link>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/i18n/infragistics-ja.js"></script>
+
+<div>
+		<ol>
+			<li>サンプル <a href="http://jp.staging.igniteui.local/17-2/HtmlSamples/javascript-excel-library/report.xlsx" download="">Excel ファイルのダウンロード</a></li>
+			<li>[ファイルを選択]/[参照...] ボタンをクリックして、サンプル Excel ファイルを選択します。</li>
+			<li>Excel コンテンツを編集または編集の無効化</li>
+			<li>Excel ファイルをダウンロード</li>
+		</ol>
+        <div class="spreadsheet-sample-btn">
+            <input type="file" id="input" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></input>
+            <span> ファイルを選択... </span>
+        </div>
+		<div>
+			<input class="spreadsheet-sample-btn" id="saveWorkbookBtn" type="button" value="ワークブックを保存" onclick="saveWorkbook()">
+		</input></div>
+		<div class="editing-controls-container">
+			<span for="enableEditing" class="show-row-text">
+				<div id="enableEditing"></div>
+				<span class="label-editing">Excel の編集を有効にする</span>
+			</span>
+		</div>
+		<div class="clear"></div>
+		
+		<div id="result"></div>
+		<div id="spreadsheet"></div>
+	</div>

@@ -1,0 +1,43 @@
+.ui-igspreadsheet .ui-menu-item {
+            white-space:nowrap;
+        }
+        .spreadsheet-sample-btn
+        {
+            max-width: 200px;
+            padding: 8px;
+            background: #fff;
+            color:#444;
+            text-align: center;
+            border-radius: 3px;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin:0 15px 15px 0;
+            cursor:pointer;
+            border:1px solid #ccc;
+        }
+
+        .spreadsheet-sample-btn:hover {
+            border-color:#09f;
+        }
+
+		.editing-controls-container {
+			display: inline-block;
+			position: relative;
+			min-width: 200px;
+			margin: 18px 15px;
+		}
+
+			.editing-controls-container #enableEditing {
+				margin-right: 6px;
+				border-radius: 3px;
+				position: absolute;
+				left: 0;
+				top: 10px;
+			}
+
+		.label-editing {
+			display:inline-block;
+			position: absolute;
+			left: 23px;
+			top: 15px;
+		}

@@ -1,0 +1,31 @@
+<script src="http://jp.staging.igniteui.local/17-2/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.core.js"></script>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/infragistics.lob.js"></script>
+<link href="http://staging.igniteui.local/17-2/IgniteUI/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://staging.igniteui.local/17-2/IgniteUI/css/structure/infragistics.css" rel="stylesheet"></link>
+<script src="http://staging.igniteui.local/17-2/IgniteUI/js/i18n/infragistics-ja.js"></script>
+
+<script id="dialogTemplate" type="text/html">
+		<div style="float: left; width:50%; margin-left: 15px; margin-top: 15px;" id="templateContainer">
+			<strong style="margin-left: 5px">${Name}</strong><br /><br />
+			<table id="dialogTmpTable" style="width: 50%;">
+				<colgroup>
+					<col style="width: 30%;" />
+					<col style="width: 60%;" />
+				</colgroup>
+				<tbody data-render-tmpl="true"></tbody>
+			</table>
+			<div data-editor-for-imageurl="true"></div>
+		</div>
+	</script>
+<script id="editorsTemplate" type="text/html">
+		<tr>
+			<td><strong>${headerText}</strong></td>
+			<td><input data-editor-for-${key}="true" /></td>
+		</tr>
+	</script>
+
+<table id="grid1"></table>
+	<br />
