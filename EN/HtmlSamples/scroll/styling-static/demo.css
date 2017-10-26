@@ -1,0 +1,92 @@
+#loremText {
+            height: 400px;
+            width: 95%;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        #loremText p {
+            text-indent: 14px;
+            font-size: 14px;
+            padding: initial;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        #loremText h3 {
+            font-size: 18px;
+            padding: initial;
+            margin: initial;
+        }
+
+        #loremText .igscroll-varrow {
+            visibility: hidden;
+        }
+
+        #loremText .igscroll-harrow {
+            visibility: hidden;
+        }
+
+        #loremText .igscroll-vcontainer {
+            right: 3px;
+        }
+
+        #loremText .igscroll-vtrack {
+            background-color: #dfdfdf;
+            border-radius: 30px;
+            width: 12px;
+            box-shadow: inset 0px 0px 5px #888888;
+        }
+
+        #loremText .igscroll-vdrag {
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-shadow: inset 0px 0px 5px #888888;
+            background-color: #587adb;
+        }
+
+        #loremText .igscroll-vdrag-thin {
+            width: 10px;
+            left: 0px;
+        }
+
+        #loremText .igscroll-vdrag-big {
+            width: 10px;
+            left: 0px;
+        }
+
+        #loremText .igscroll-vdrag:hover {
+            background-color: #4c69ba;
+        }
+
+        #loremText .igscroll-vdrag:active {
+            background-color: #3f58a0;
+        }
+
+
+        #loremText .igscroll-htrack {
+            background-color: #dfdfdf;
+            border-radius: 30px;
+            height: 12px !important;
+            box-shadow: inset 0px 0px 5px #888888;
+        }
+
+        #loremText .igscroll-hdrag {
+            height: 10px !important;
+            top: 0px !important;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-shadow: inset 0px 0px 5px #888888;
+            background-color: #587adb;
+        }
+
+        #loremText .igscroll-hdrag:hover {
+            background-color: #4c69ba;
+        }
+
+        #loremText .igscroll-hdrag:active {
+            background-color: #3f58a0;
+        }
