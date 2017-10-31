@@ -7,6 +7,8 @@ $(function () {
                 height: "550px",
                 title: "Organization Chart",
                 subtitle: "Displays structure of various departments",
+                isHorizontalZoomEnabled: true,
+                isVerticalZoomEnabled: true,
                 axes: [{
                     name: "xAxis",
                     type: "numericX",

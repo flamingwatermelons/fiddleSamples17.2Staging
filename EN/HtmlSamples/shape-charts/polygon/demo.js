@@ -14,6 +14,8 @@ $(function () {
                 height: "550px",
                 title: "Home Floor Plan",
                 dataSource: roomData,
+                isHorizontalZoomEnabled: true,
+                isVerticalZoomEnabled: true,
                 axes: [{
                     name: "xAxis",
                     type: "numericX",
