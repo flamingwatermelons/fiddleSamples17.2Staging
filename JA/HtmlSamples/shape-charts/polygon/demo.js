@@ -14,6 +14,8 @@ $(function () {
                 height: "550px",
                 title: "家の間取り図",
                 dataSource: roomData,
+                isHorizontalZoomEnabled: true,
+                isVerticalZoomEnabled: true,
                 axes: [{
                     name: "xAxis",
                     type: "numericX",

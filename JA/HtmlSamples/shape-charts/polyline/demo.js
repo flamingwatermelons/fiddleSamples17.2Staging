@@ -7,6 +7,8 @@ $(function () {
                 height: "550px",
                 title: "組織図",
                 subtitle: "部門の構造の表示",
+                isHorizontalZoomEnabled: true,
+                isVerticalZoomEnabled: true,
                 axes: [{
                     name: "xAxis",
                     type: "numericX",
