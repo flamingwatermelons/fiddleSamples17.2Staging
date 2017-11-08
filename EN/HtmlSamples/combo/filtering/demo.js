@@ -55,9 +55,7 @@ var northwindProductsEN = [
                 closeOnBlur: true,
                 showIcon: false,
                 mode: "popover",
-                messages: {
-                    success: "When autoComplete is enabled, the filtering condition is always 'startsWith'. Start typing .."
-                }
+                contentTemplate: "When autoComplete is enabled, the filtering condition is always 'startsWith'. Start typing .."
             });
 
             $("#filterContainsCombo").igNotifier({
@@ -67,9 +65,7 @@ var northwindProductsEN = [
                 showIcon: false,
                 closeOnBlur: true,
                 mode: "popover",
-                messages: {
-                    success: "Type some text in order to check how 'Contains' filtering condition works"
-                }
+                contentTemplate: "Type some text in order to check how 'Contains' filtering condition works"
             });
 
             $("#caseSensitiveCombo").igNotifier({
@@ -79,9 +75,7 @@ var northwindProductsEN = [
                 showIcon: false,
                 closeOnBlur: true,
                 mode: "popover",
-                messages: {
-                    success: "If set to true, filtering and auto selection will be case-sensitive."
-                }
+                contentTemplate: "If set to true, filtering and auto selection will be case-sensitive."
             });
         });
 });
