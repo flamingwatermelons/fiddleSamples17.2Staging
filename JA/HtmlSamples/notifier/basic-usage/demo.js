@@ -1,26 +1,12 @@
 $(function () {
            $("#successEditor1").igNotifier({
                direction: "right",
-               notifyLevel: "success",
-               contentTemplate: function(status) {
-                   var template;
-
-                   switch (status) {
-                       case "info":
-                           template = "情報メッセージ。";
-                           break;
-                       case "success":
-                           template = "成功メッセージ。";
-                           break;
-                       case "warning":
-                           template = "警告メッセージ。";
-                           break;
-                       case "error":
-                           template = "エラー メッセージ。";
-                           break;
-                   }
-                   return template;
-               },
+               locale: {
+                   infoMsg: "情報メッセージ。",
+                   successMsg: "成功メッセージ。",
+                   warningMsg: "警告メッセージ。",
+                   errorMsg: "エラー メッセージ。"
+               }
             }).igNotifier("notify", "success");
 
             $("#state").on("change", function myfunction() {
