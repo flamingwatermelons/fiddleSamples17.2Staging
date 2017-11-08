@@ -55,9 +55,7 @@ var northwindProductsEN = [
                 closeOnBlur: true,
                 showIcon: false,
                 mode: "popover",
-                messages: {
-                    success: "autoComplete が有効な場合、フィルタリング条件は常に 'startsWith' です。入力を開始してください。"
-                }
+                contentTemplate: "autoComplete が有効な場合、フィルタリング条件は常に 'startsWith' です。入力を開始してください。"
             });
 
             $("#filterContainsCombo").igNotifier({
@@ -67,9 +65,7 @@ var northwindProductsEN = [
                 showIcon: false,
                 closeOnBlur: true,
                 mode: "popover",
-                messages: {
-                    success: "「Contains」フィルター条件を使用するには、テキストを入力します。"
-                }
+                contentTemplate: "「Contains」フィルター条件を使用するには、テキストを入力します。"
             });
 
             $("#caseSensitiveCombo").igNotifier({
@@ -79,9 +75,7 @@ var northwindProductsEN = [
                 showIcon: false,
                 closeOnBlur: true,
                 mode: "popover",
-                messages: {
-                    success: "true に設定されている場合、フィルタリングおよび自動選択が大文字と小文字を区別します。"
-                }
+                contentTemplate: "true に設定されている場合、フィルタリングおよび自動選択が大文字と小文字を区別します。"
             });
         });
 });
