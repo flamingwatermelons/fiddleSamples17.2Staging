@@ -40,7 +40,9 @@ $(function () {
                 showOn: "mouseenter",
                 state: "info",
                 showIcon: true,
-                contentTemplate: "Checking this will make the comment area readonly."
+                locale: {
+                    infoMsg: "Checking this will make the comment area readonly."
+                }
             });
 
             $("#btn").click(function () {

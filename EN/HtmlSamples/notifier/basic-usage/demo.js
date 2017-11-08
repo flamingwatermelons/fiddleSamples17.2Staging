@@ -1,26 +1,12 @@
 $(function () {
            $("#successEditor1").igNotifier({
                direction: "right",
-               notifyLevel: "success",
-               contentTemplate: function(status) {
-                   var template;
-
-                   switch (status) {
-                       case "info":
-                           template = "Information message.";
-                           break;
-                       case "success":
-                           template = "Success message.";
-                           break;
-                       case "warning":
-                           template = "Warning message.";
-                           break;
-                       case "error":
-                           template = "Error message.";
-                           break;
-                   }
-                   return template;
-               },
+               locale: {
+                   infoMsg: "Information message.",
+                   successMsg: "Success message.",
+                   warningMsg: "Warning message.",
+                   errorMsg: "Error message."
+               }
             }).igNotifier("notify", "success");
 
             $("#state").on("change", function myfunction() {
